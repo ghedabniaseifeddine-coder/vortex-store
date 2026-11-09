@@ -26,7 +26,7 @@ export function StoreProvider({ children }) {
   const [orders, setOrders] = useState(() => (Array.isArray(saved?.orders) ? saved.orders : []));
   const [settings, setSettings] = useState(() => ({
     pin: DEFAULT_PIN,
-    storeName: 'VORTEX STORE',
+    storeName: 'SMART ACCESSOIRE',
     phone: '0555 00 00 00',
     freeShipping: 8000,
     ...(saved?.settings || {}),

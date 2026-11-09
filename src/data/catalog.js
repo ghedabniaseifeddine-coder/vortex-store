@@ -1,4 +1,4 @@
-// Catalog recovered verbatim from the original VORTEX STORE bundle.
+// Catalog recovered verbatim from the original SMART ACCESSOIRE bundle.
 // Names, prices (DA), stock, specs and category identity are preserved exactly.
 
 export const CATEGORIES = [

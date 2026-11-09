@@ -1,5 +1,5 @@
 /* ============================================================
-   VORTEX STORE — store UI.
+   SMART ACCESSOIRE — store UI.
    The 3D world lives in scene/scene.css and sits behind this layer.
    Content stays on an opaque-enough glass surface so the cinematic
    background can never hurt legibility of text, prices or CTAs.
@@ -1435,4 +1435,10 @@ tbody tr:hover { background: rgba(46, 230, 255, 0.04); }
     animation-iteration-count: 1 !important;
     transition-duration: 0.001ms !important;
   }
+}
+
+/* SMART ACCESSOIRE wordmark: second line is longer than the old "STORE" */
+.brand__text--sa small {
+  font-size: 0.5rem;
+  letter-spacing: 0.16em;
 }

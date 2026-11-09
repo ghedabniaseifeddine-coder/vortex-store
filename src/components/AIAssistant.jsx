@@ -3,7 +3,7 @@ import { CATEGORIES, formatDA, FREE_SHIPPING_THRESHOLD } from '../data/catalog.j
 import { useStore } from '../store.jsx';
 
 /**
- * VORTEX Assistant — the store's shopping assistant.
+ * SMART Assistant — the store's shopping assistant.
  * Runs fully in the browser against the live catalog (no key required), and it
  * understands English, French and Arabic product keywords from the original data.
  */
@@ -93,7 +93,7 @@ export default function AIAssistant() {
   const [open, setOpen] = useState(false);
   const [input, setInput] = useState('');
   const [log, setLog] = useState(() => [
-    { from: 'bot', text: 'Hi 👋 I am the VORTEX Assistant. Tell me what you need — a case, a fast charger, earbuds — or ask about delivery.' },
+    { from: 'bot', text: 'Hi 👋 I am the SMART Assistant. Tell me what you need — a case, a fast charger, earbuds — or ask about delivery.' },
   ]);
   const logRef = useRef(null);
 
@@ -113,11 +113,11 @@ export default function AIAssistant() {
   return (
     <div className="ai">
       {open && (
-        <div className="ai__panel" role="dialog" aria-label="VORTEX Assistant">
+        <div className="ai__panel" role="dialog" aria-label="SMART Assistant">
           <div className="ai__head">
-            <span className="brand__mark" style={{ width: 30, height: 30, borderRadius: 9, fontSize: '0.8rem' }}>V</span>
+            <span className="brand__mark" style={{ width: 30, height: 30, borderRadius: 9, fontSize: '0.8rem' }}>S</span>
             <div>
-              <b>VORTEX Assistant</b>
+              <b>SMART Assistant</b>
               <small>Product help · delivery · sizing</small>
             </div>
             <button

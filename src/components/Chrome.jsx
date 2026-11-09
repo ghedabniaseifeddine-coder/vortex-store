@@ -21,12 +21,12 @@ export function Header({ path, navigate }) {
           className="brand"
           href="/"
           onClick={(e) => { e.preventDefault(); navigate('/'); }}
-          aria-label="VORTEX STORE home"
+          aria-label="SMART ACCESSOIRE home"
         >
-          <span className="brand__mark">V</span>
-          <span className="brand__text">
-            VORTEX
-            <small>STORE</small>
+          <span className="brand__mark">S</span>
+          <span className="brand__text brand__text--sa">
+            SMART
+            <small>ACCESSOIRE</small>
           </span>
         </a>
 
@@ -155,11 +155,11 @@ export function Footer({ navigate }) {
         <div className="footer__grid">
           <div className="footer__col">
             <a className="brand" href="/" onClick={(e) => { e.preventDefault(); navigate('/'); }} style={{ marginBottom: 14 }}>
-              <span className="brand__mark">V</span>
-              <span className="brand__text">VORTEX<small>STORE</small></span>
+              <span className="brand__mark">S</span>
+              <span className="brand__text brand__text--sa">SMART<small>ACCESSOIRE</small></span>
             </a>
             <p>Premium smartphone accessories — cases, charging, audio and protection. Delivered everywhere in Algeria, cash on delivery.</p>
-            <p style={{ color: 'var(--cyan)' }}>support@vortex-store.dz</p>
+            <p style={{ color: 'var(--cyan)' }}>support@smartaccessoire.dz</p>
           </div>
 
           <div className="footer__col">
@@ -195,7 +195,7 @@ export function Footer({ navigate }) {
         </div>
 
         <div className="footer__bottom">
-          <span>© {new Date().getFullYear()} VORTEX STORE — Smartphone accessories.</span>
+          <span>© {new Date().getFullYear()} SMART ACCESSOIRE — Smartphone accessories.</span>
           <div className="footer__pay">
             <span>COD</span>
             <span>Yalidine</span>
